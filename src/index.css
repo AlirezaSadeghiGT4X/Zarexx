@@ -3,4 +3,15 @@
 @theme {
     --color-primary: #F1C40F;
     --color-hover: #E3B90E;
+    --font-display: "Sahel";
+}
+
+@font-face {
+    font-family: Sahel;
+    src: url('/Fonts/Sahel/sahel-font-v3.3.1-Fontjo.com/Sahel.eot');
+    src: url('/Fonts/Sahel/sahel-font-v3.3.1-Fontjo.com/Sahel.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/Sahel/sahel-font-v3.3.1-Fontjo.com/Sahel.woff2') format('woff2'),
+        url('/Fonts/Sahel/sahel-font-v3.3.1-Fontjo.com/Sahel.woff') format('woff'),
+        url('/Fonts/Sahel/sahel-font-v3.3.1-Fontjo.com/Sahel.ttf') format('truetype');
+    font-weight: normal;
 }
