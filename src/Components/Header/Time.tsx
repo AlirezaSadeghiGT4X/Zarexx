@@ -37,8 +37,8 @@ export default function Time() {
     const shamsiDate: string = format(time, "yyyy/MM/dd");
     return (
         <div className="flex flex-col">
-            <span>{shamsiDate}</span>
-            <span>{hour} : {minute} : {second}</span>
+            <span className="text-mauve-800 dark:text-mauve-200">{shamsiDate}</span>
+            <span className="text-mauve-800 dark:text-mauve-200">{hour} : {minute} : {second}</span>
         </div>
     )
 }
