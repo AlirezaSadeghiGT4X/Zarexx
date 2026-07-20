@@ -74,7 +74,7 @@ export default function Time() {
 	}, 100);
 	const shamsiDate: string = format(time, "yyyy/MM/dd");
 	return (
-		<div className="flex flex-col text-zinc-900 dark:text-zinc-200 text-xs md:flex-row gap-0.5 md:gap-2 items-center justify-center">
+		<div className="flex flex-col text-zinc-900 dark:text-zinc-200 text-xs lg:text-sm md:flex-row gap-0.5 md:gap-2 items-center justify-center">
 			<span>{FaNumbers(shamsiDate)}</span>
 			<span className="hidden md:block">●</span>
 			<span>
