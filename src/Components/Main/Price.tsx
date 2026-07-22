@@ -8,7 +8,8 @@ export default function Price({
 	changeValue,
 	changePercent,
 }: priceProps) {
-	if (changeValue) changeValue = parseFloat(changeValue);
+	let changeValueFloat: number | undefined = undefined;
+	if (changeValue) changeValueFloat = parseFloat(changeValue);
 	return (
 		<article
 			className={`w-full h-24 rounded-lg shadow-sm ${changePercent > 0 ? "dark:shadow-green-400 shadow-green-700" : changePercent < 0 ? "dark:shadow-rose-400 shadow-rose-700" : "shadow-black"} flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-1.5 text-zinc-900 dark:text-zinc-200`}
@@ -26,7 +27,7 @@ export default function Price({
 					<div
 						className={`${changePercent < 0 ? "dark:text-rose-400 text-rose-700" : changePercent > 0 ? "dark:text-green-400 text-green-700" : "text-white"} space-x-1`}
 					>
-						<span>{changeValue?.toLocaleString("fa-IR")}</span>
+						<span>{changeValueFloat?.toLocaleString("fa-IR")}</span>
 						<span>({changePercent.toLocaleString("fa-IR")} %)</span>
 					</div>
 					<span className="hidden lg:block"> :تغییرات روزانه</span>

@@ -27,7 +27,7 @@ export type priceProps = {
     id: number,
     name: string,
     price: number,
-    changeValue: number | undefined,
+    changeValue: string | undefined,
     changePercent: number
 }
 export type symbolProps = {
