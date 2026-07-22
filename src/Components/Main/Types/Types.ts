@@ -1,7 +1,8 @@
 export interface Asset {
+    readonly id: number;
     readonly name: string;
     price: number;
-    changeValue: number;
+    changeValue?: number | undefined;
     changePercent: number;
 }
 export type AData = {
@@ -11,7 +12,7 @@ export type AData = {
     symbol: string,
     name_en: string,
     name: string,
-    price: number,
+    price: string,
     change_value: number,
     change_percent: number,
     unit: string
@@ -21,4 +22,14 @@ export type Data = {
     gold: Array<AData>,
     currency: Array<AData>,
     cryptocurrency: Array<AData>
+}
+export type priceProps = {
+    id: number,
+    name: string,
+    price: number,
+    changeValue: number | undefined,
+    changePercent: number
+}
+export type symbolProps = {
+    id: number
 }

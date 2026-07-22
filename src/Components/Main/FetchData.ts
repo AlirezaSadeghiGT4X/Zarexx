@@ -7,6 +7,7 @@ export async function FetchData() {
             throw new Error("Failed to catch data")
         }
         const jsonData = await (fetchedData.json()) as Data
+        localStorage.setItem("status", "true")
         return jsonData
     }
     catch (err) {
