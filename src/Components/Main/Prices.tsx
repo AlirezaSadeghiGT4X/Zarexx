@@ -30,7 +30,7 @@ export default function Prices() {
 		}
 	}, 100);
 	return (
-		<section className="w-4xl flex items-center justify-center">
+		<section className="w-4xl flex justify-center items-start">
 			{status == "true" ? (
 				<div className="grid grid-cols-2 gap-4 w-full">
 					{assets.map((asset, index) => (
