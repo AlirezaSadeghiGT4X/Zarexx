@@ -2,7 +2,7 @@ export interface Asset {
     readonly id: number;
     readonly name: string;
     price: number;
-    changeValue?: number | undefined;
+    changeValue?: string | undefined;
     changePercent: number;
 }
 export type AData = {
@@ -13,7 +13,7 @@ export type AData = {
     name_en: string,
     name: string,
     price: string,
-    change_value: number,
+    change_value: string | undefined,
     change_percent: number,
     unit: string
     description?: string
