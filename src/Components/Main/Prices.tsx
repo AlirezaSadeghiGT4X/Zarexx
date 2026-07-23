@@ -3,6 +3,7 @@ import { FetchData } from "./FetchData";
 import type { Data } from "./Types/Types";
 import { SortData } from "./SortData";
 import Price from "./Price";
+import Loading from "./Loading";
 
 export default function Prices() {
 	const [data, setData] = useState<Data | null>(null);
@@ -44,7 +45,7 @@ export default function Prices() {
 					))}
 				</div>
 			) : (
-				<p dir="rtl" className="text-white">در حال بارگذاری داده‌ها ...</p>
+				<Loading />
 			)}
 		</section>
 	);
