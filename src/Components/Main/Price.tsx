@@ -25,7 +25,7 @@ export default function Price({
 				</div>
 				<div className="text-sm flex gap-1">
 					<div
-						className={`${changePercent < 0 ? "dark:text-rose-400 text-rose-700" : changePercent > 0 ? "dark:text-green-400 text-green-700" : "text-white"} space-x-1`}
+						className={`${changePercent < 0 ? "dark:text-rose-400 text-rose-700" : changePercent > 0 ? "dark:text-green-400 text-green-700" : "text-zinc-900 dark:text-zinc-200"} space-x-1`}
 					>
 						<span>{changeValueFloat?.toLocaleString("fa-IR")}</span>
 						<span>({changePercent.toLocaleString("fa-IR")} %)</span>
