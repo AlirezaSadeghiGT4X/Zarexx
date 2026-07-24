@@ -4,6 +4,7 @@ import type { Data } from "./Types/Types";
 import { SortData } from "./SortData";
 import Price from "./Price";
 import Loading from "./Loading";
+import { motion } from "motion/react";
 
 export default function Prices() {
 	const [data, setData] = useState<Data | null>(null);
@@ -32,18 +33,25 @@ export default function Prices() {
 	return (
 		<section className="w-4xl flex justify-center items-start">
 			{status == "true" ? (
-				<div className="grid grid-cols-2 gap-4 w-full">
-					{assets.map((asset, index) => (
-						<Price
-							id={asset.id}
-							name={asset.name}
-							price={asset.price}
-							changeValue={asset.changeValue}
-							changePercent={asset.changePercent}
-							key={index}
-						/>
-					))}
-				</div>
+				<motion.div
+					initial={{ transform: "translateY(1000px)" }}
+					animate={{ transform: "translateY(0px)" }}
+					transition={{ type: "decay" }}
+					className="w-full"
+				>
+					<div className="grid grid-cols-2 gap-4">
+						{assets.map((asset, index) => (
+							<Price
+								id={asset.id}
+								name={asset.name}
+								price={asset.price}
+								changeValue={asset.changeValue}
+								changePercent={asset.changePercent}
+								key={index}
+							/>
+						))}
+					</div>
+				</motion.div>
 			) : (
 				<Loading />
 			)}
