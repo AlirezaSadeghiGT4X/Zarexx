@@ -23,7 +23,7 @@ A real-time gold, dollar, and currency price-tracking platform for Persian-speak
 
 ## 📸 Screenshot
 
-![Zarexx](ReadmeImages/Zarexx.png)
+![Zarexx](/public/public/Images/Screenshot.webp)
 
 ---
 
@@ -33,4 +33,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-<p align="center">Made with ❤️ for Persian-speaking users</p>
+<p align="center">Made with 💛 for Persian-speaking users</p>
