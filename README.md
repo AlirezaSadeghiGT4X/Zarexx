@@ -7,6 +7,7 @@ A real-time gold, dollar, and currency price-tracking platform for Persian-speak
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
@@ -22,8 +23,14 @@ A real-time gold, dollar, and currency price-tracking platform for Persian-speak
 
 ## 📸 Screenshot
 
-![Zarexx](/public/public/Images/Screenshot.webp)
+![Zarexx](ReadmeImages/Zarexx.png)
 
 ---
 
-<p align="center">Made with 💛 for Persian-speaking users</p>
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<p align="center">Made with ❤️ for Persian-speaking users</p>
