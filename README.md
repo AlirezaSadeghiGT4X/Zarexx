@@ -33,4 +33,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-<p align="center">Made with 💛 for Persian-speaking users</p>
+<p align="center">Made with 💛 for Persian-speaking users</p> 
