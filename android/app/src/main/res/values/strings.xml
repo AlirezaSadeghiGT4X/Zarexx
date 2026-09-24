@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Zarexx</string>
+    <string name="title_activity_main">Zarexx</string>
+    <string name="package_name">ir.zarexx.app</string>
+    <string name="custom_url_scheme">ir.zarexx.app</string>
+</resources>
