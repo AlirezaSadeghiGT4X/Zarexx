@@ -15,6 +15,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "date-fns-jalali": "^4.4.0-0",
     "dayjs": "^1.11.21",
+    "eruda": "^3.4.3",
     "jalaliday": "^3.1.1",
     "motion": "^12.42.2",
     "react": "^19.2.7",
