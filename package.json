@@ -12,6 +12,7 @@
   "dependencies": {
     "@capacitor/android": "^8.5.2",
     "@capacitor/core": "^8.5.2",
+    "@capacitor/status-bar": "^8.0.3",
     "@tailwindcss/vite": "^4.3.3",
     "date-fns-jalali": "^4.4.0-0",
     "dayjs": "^1.11.21",

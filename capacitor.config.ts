@@ -7,6 +7,13 @@ const config: CapacitorConfig = {
   android: {
     webContentsDebuggingEnabled: true,
   },
+  plugins: {
+    StatusBar: {
+      backgroundColor: '#F1C40F',
+      style: 'LIGHT',
+      overlaysWebView: false,
+    },
+  },
 };
 
 export default config;
